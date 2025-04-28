@@ -72,3 +72,4 @@ crypto_monthly_price['average_price'] = round((crypto_monthly_price['high'] + cr
 crypto_monthly_price['timestamp'] = pd.to_datetime(crypto_monthly_price['timestamp']).dt.to_period('M')
 
 print(crypto_monthly_price.info())
+# %%

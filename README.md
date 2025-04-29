@@ -1,6 +1,6 @@
 # Crypto Performance Analysis
 
-This repository provides tools and Jupyter Notebooks for analyzing historical price and on-chain data of major cryptocurrencies such as BTC, ETH, BNB, and SOL.
+This repository provides tools and Jupyter Notebooks for analyzing historical price and on-chain data of major cryptocurrencies such as BTC, ETH, BNB, SOL, XRP and AVAX.
 
 The analysis leverages Python and popular data science libraries to fetch, process, and visualize market and tokenomics data from sources like Binance and CoinGecko.
 

@@ -4,3 +4,4 @@ notebooks/fetch_bitquery_solana.ipynb
 notebooks/fetch_bitquery_binance.ipynb
 notebooks/fetch_bitquery_ripple.ipynb
 notebooks/fetch_bitquery_bnb_smart.ipynb
+notebooks/fetch_bitquery_avalanche.ipynb

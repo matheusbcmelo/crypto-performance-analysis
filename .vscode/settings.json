@@ -1,0 +1,109 @@
+{   
+    // Window
+    "window.zoomLevel": 1,
+    "window.menuBarVisibility": "visible",
+    
+    // Workbench
+    "workbench.editor.labelFormat": "short",
+    "workbench.statusBar.visible": true,
+    "workbench.colorTheme": "Min Dark",
+    "workbench.layoutControl.enabled": false,
+    "workbench.startupEditor": "none",
+    "workbench.tips.enabled": false,
+    "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
+    "workbench.editor.enablePreview": false,
+
+    // Breadcrumbs
+    "breadcrumbs.filePath": "last",
+    "breadcrumbs.enabled": true,
+
+    // Explorer
+    "explorer.compactFolders": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.decorations.badges": false,
+
+    // Editor
+    "editor.fontVariations": true,
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.8,
+    "editor.rulers": [120],
+    "editor.renderLineHighlight": "none",
+    "editor.fontLigatures": true,
+    "editor.semanticHighlighting.enabled": false,
+    "editor.scrollbar.vertical": "visible",
+    "editor.scrollbar.horizontal": "visible",
+    "editor.selectionHighlight": false,
+    "editor.occurrencesHighlight": "off",
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.enabled": false,
+    "editor.colorDecorators": true,
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.wordWrap": "on",
+    
+
+    // Terminal
+    "terminal.integrated.fontFamily": "JetBrains Mono",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontLigatures.enabled": true,
+    "terminal.integrated.lineHeight": 1.2,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyleInactive": "none",
+    "terminal.integrated.cursorWidth": 2,
+    
+    // Markdown
+    "markdown.preview.fontFamily": "Inter",
+    
+
+    // Custom UI Style
+    "custom-ui-style.font.sansSerif": "Inter",
+    "custom-ui-style.electron": {
+        "titleBarStyle": "hiddenInset",
+    },
+    "custom-ui-style.stylesheet": {
+        ".editor-widget.find-widget": "box-shadow: none; border-radius: 4px",
+        ".editoractions": "display: unset",
+        ".monaco-action-bar.quick-input-inline-action-bar": "display: none",
+        ".monaco-editor .scroll-decoration": "display: none",
+        ".monaco-list-row.focused": "outline: none !important",
+        ".monaco-scrollable-element > .shadow.top": "display: none",
+        ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "outline: none !important",
+        ".monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container > .title-label": "padding-left: 60px",
+        ".monaco-workbench .part.editor > .content .editor-group-container > .title.title-border-bottom:after": "display: none",
+        ".notification-toast": "box-shadow: none !important",
+        ".part.sidebar": "box-shadow: 0px 0px 0px 50px rgba(0, 0, 0, .25);",
+        ".quick-input-list .scrollbar": "display: none",
+        ".quick-input-titlebar": "background: #100B15 !important",
+        ".quick-input-widget": "top: 25vh !important",
+        ".quick-input-widget.show-file-icons": "box-shadow: none !important",
+        ".slider": "border-radius: 2px !important",
+        ".sidebar": "border: none !important",
+        ".sidebar .title-label": "padding: 0 !important",
+        ".title .monaco-icon-label:after": "margin-right: 0",
+        ".title.show-file-icons .label-container .monaco-icon-label.file-icon": "justify-content: center; padding: 0 !important",
+        ".titlelable": "display: unset",
+        ".window-appicon": "display: none"
+
+        
+    },
+
+    // Git
+    "git.decorations.enabled": false,
+    "git.ignoreMissingGitWarning": true,
+
+    // File associations
+    "files.associations": {
+        "*.json": "jsonc"
+    },
+
+    //Jupyter Notebook
+    "jupyter.askForKernelRestart": false,
+    "dineug.erd-editor.theme.appearance": "dark",
+    "dineug.erd-editor.theme.grayColor": "slate",
+    "dineug.erd-editor.theme.accentColor": "indigo",
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    
+}

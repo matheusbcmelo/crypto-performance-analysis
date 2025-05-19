@@ -5,3 +5,5 @@ plotly
 ccxt
 pycoingecko
 numpy
+jupyter
+nbformat

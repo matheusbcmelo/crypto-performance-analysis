@@ -2,17 +2,17 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Crypto Price History</title>
-                <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts@latest/dist/echarts.min.js"></script>
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
 
     
 </head>
 <body >
-    <div id="e375d9c9761d4d5fa92969d9cc62df9b" class="chart-container" style="width:100%; height:535 px; "></div>
+    <div id="57d8a90587ba46aba7f92c913f69b3fc" class="chart-container" style="width:100%; height:535px; "></div>
     <script>
-        var chart_e375d9c9761d4d5fa92969d9cc62df9b = echarts.init(
-            document.getElementById('e375d9c9761d4d5fa92969d9cc62df9b'), 'dark', {renderer: 'canvas'});
-        var option_e375d9c9761d4d5fa92969d9cc62df9b = {
+        var chart_57d8a90587ba46aba7f92c913f69b3fc = echarts.init(
+            document.getElementById('57d8a90587ba46aba7f92c913f69b3fc'), 'dark', {renderer: 'canvas'});
+        var option_57d8a90587ba46aba7f92c913f69b3fc = {
     "backgroundColor": "rgba(0,0,0,0)",
     "animation": true,
     "animationThreshold": 2000,
@@ -10011,6 +10011,7 @@
             ],
             "selected": {},
             "show": true,
+            "left": "right",
             "padding": 5,
             "itemGap": 10,
             "itemWidth": 25,
@@ -10055,19 +10056,11 @@
     },
     "xAxis": [
         {
-            "type": "category",
             "show": true,
             "scale": false,
             "nameLocation": "end",
             "nameGap": 15,
             "gridIndex": 0,
-            "axisLabel": {
-                "show": true,
-                "rotate": 30,
-                "margin": 8,
-                "interval": "auto",
-                "valueAnimation": false
-            },
             "inverse": false,
             "offset": 0,
             "splitNumber": 5,
@@ -10538,7 +10531,6 @@
             "show": true,
             "text": "Price History (Log Scale)",
             "target": "blank",
-            "subtext": "Weekly average prices",
             "subtarget": "blank",
             "padding": 5,
             "itemGap": 10,
@@ -10547,41 +10539,22 @@
             "triggerEvent": false
         }
     ],
-    "dataZoom": [
-        {
-            "show": true,
-            "type": "slider",
-            "showDetail": true,
-            "showDataShadow": true,
-            "realtime": true,
-            "start": 0,
-            "end": 100,
-            "orient": "horizontal",
-            "zoomLock": false,
-            "filterMode": "filter"
-        },
-        {
-            "show": true,
-            "type": "inside",
-            "showDetail": true,
-            "showDataShadow": true,
-            "realtime": true,
-            "start": 20,
-            "end": 80,
-            "orient": "horizontal",
-            "zoomLock": false,
-            "filterMode": "filter",
-            "disabled": false,
-            "zoomOnMouseWheel": true,
-            "moveOnMouseMove": true,
-            "moveOnMouseWheel": true,
-            "preventDefaultMouseMove": true
-        }
-    ]
+    "dataZoom": {
+        "show": true,
+        "type": "slider",
+        "showDetail": true,
+        "showDataShadow": true,
+        "realtime": true,
+        "start": 0,
+        "end": 100,
+        "orient": "horizontal",
+        "zoomLock": false,
+        "filterMode": "filter"
+    }
 };
-        chart_e375d9c9761d4d5fa92969d9cc62df9b.setOption(option_e375d9c9761d4d5fa92969d9cc62df9b);
+        chart_57d8a90587ba46aba7f92c913f69b3fc.setOption(option_57d8a90587ba46aba7f92c913f69b3fc);
             window.addEventListener('resize', function(){
-                chart_e375d9c9761d4d5fa92969d9cc62df9b.resize();
+                chart_57d8a90587ba46aba7f92c913f69b3fc.resize();
             })
     </script>
 </body>

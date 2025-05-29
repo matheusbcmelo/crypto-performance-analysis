@@ -8,11 +8,11 @@
     
 </head>
 <body >
-    <div id="efea90bf84ce4d56982d39e686fab100" class="chart-container" style="width:100%; height:535px; "></div>
+    <div id="6f77eaae7cde4c229b140d4383d435d5" class="chart-container" style="width:100%; height:535px; "></div>
     <script>
-        var chart_efea90bf84ce4d56982d39e686fab100 = echarts.init(
-            document.getElementById('efea90bf84ce4d56982d39e686fab100'), 'dark', {renderer: 'canvas'});
-        var option_efea90bf84ce4d56982d39e686fab100 = {
+        var chart_6f77eaae7cde4c229b140d4383d435d5 = echarts.init(
+            document.getElementById('6f77eaae7cde4c229b140d4383d435d5'), 'dark', {renderer: 'canvas'});
+        var option_6f77eaae7cde4c229b140d4383d435d5 = {
     "backgroundColor": "rgba(0,0,0,0)",
     "animation": true,
     "animationThreshold": 2000,
@@ -918,6 +918,12 @@
             "nameLocation": "end",
             "nameGap": 15,
             "gridIndex": 0,
+            "axisLabel": {
+                "show": true,
+                "margin": 8,
+                "formatter": function (value) {    if (value >= 1e12) { return +(value/1e12).toFixed(1) + 'T'; }    if (value >= 1e9)  { return +(value/1e9).toFixed(1)  + 'B'; }    if (value >= 1e6)  { return +(value/1e6).toFixed(1)  + 'M'; }    if (value >= 1e3)  { return +(value/1e3).toFixed(1)  + 'K'; }    return value;},
+                "valueAnimation": false
+            },
             "inverse": false,
             "offset": 0,
             "splitNumber": 5,
@@ -945,7 +951,7 @@
     "title": [
         {
             "show": true,
-            "text": "Blockchain Monthly Activity",
+            "text": "Blockchain Monthly Transactions",
             "target": "blank",
             "subtarget": "blank",
             "padding": 5,
@@ -968,9 +974,9 @@
         "filterMode": "filter"
     }
 };
-        chart_efea90bf84ce4d56982d39e686fab100.setOption(option_efea90bf84ce4d56982d39e686fab100);
+        chart_6f77eaae7cde4c229b140d4383d435d5.setOption(option_6f77eaae7cde4c229b140d4383d435d5);
             window.addEventListener('resize', function(){
-                chart_efea90bf84ce4d56982d39e686fab100.resize();
+                chart_6f77eaae7cde4c229b140d4383d435d5.resize();
             })
     </script>
 </body>

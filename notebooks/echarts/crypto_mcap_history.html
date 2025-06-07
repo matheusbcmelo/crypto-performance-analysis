@@ -8,11 +8,11 @@
     
 </head>
 <body >
-    <div id="6fe25177b4b74269a53272e0f38ed878" class="chart-container" style="width:100%; height:535px; "></div>
+    <div id="eea47b62f873485abfaecf0ef7159eb7" class="chart-container" style="width:100%; height:535px; "></div>
     <script>
-        var chart_6fe25177b4b74269a53272e0f38ed878 = echarts.init(
-            document.getElementById('6fe25177b4b74269a53272e0f38ed878'), 'dark', {renderer: 'canvas'});
-        var option_6fe25177b4b74269a53272e0f38ed878 = {
+        var chart_eea47b62f873485abfaecf0ef7159eb7 = echarts.init(
+            document.getElementById('eea47b62f873485abfaecf0ef7159eb7'), 'dark', {renderer: 'canvas'});
+        var option_eea47b62f873485abfaecf0ef7159eb7 = {
     "backgroundColor": "rgba(0,0,0,0)",
     "animation": true,
     "animationThreshold": 2000,
@@ -28,7 +28,7 @@
     "series": [
         {
             "type": "line",
-            "name": "BTC",
+            "name": "Bitcoin",
             "connectNulls": false,
             "xAxisIndex": 0,
             "symbolSize": 4,
@@ -1792,7 +1792,11 @@
                 ],
                 [
                     "2025-06-01",
-                    2167894861501
+                    2127953542908
+                ],
+                [
+                    "2025-06-08",
+                    2079886652545
                 ]
             ],
             "hoverAnimation": true,
@@ -1818,7 +1822,7 @@
         },
         {
             "type": "line",
-            "name": "TOTAL2",
+            "name": "Altcoins",
             "connectNulls": false,
             "xAxisIndex": 0,
             "symbolSize": 4,
@@ -3582,7 +3586,11 @@
                 ],
                 [
                     "2025-06-01",
-                    1385177507772
+                    1361656305233
+                ],
+                [
+                    "2025-06-08",
+                    1313501582412
                 ]
             ],
             "hoverAnimation": true,
@@ -3610,8 +3618,8 @@
     "legend": [
         {
             "data": [
-                "BTC",
-                "TOTAL2"
+                "Bitcoin",
+                "Altcoins"
             ],
             "selected": {},
             "show": false,
@@ -4126,7 +4134,8 @@
                 "2025-05-11",
                 "2025-05-18",
                 "2025-05-25",
-                "2025-06-01"
+                "2025-06-01",
+                "2025-06-08"
             ]
         }
     ],
@@ -4141,7 +4150,7 @@
             "axisLabel": {
                 "show": true,
                 "margin": 8,
-                "formatter": function (value) {    if (value >= 1e12) { return +(value/1e12).toFixed(1) + 'T'; }    if (value >= 1e9)  { return +(value/1e9).toFixed(1)  + 'B'; }    if (value >= 1e6)  { return +(value/1e6).toFixed(1)  + 'M'; }    if (value >= 1e3)  { return +(value/1e3).toFixed(1)  + 'K'; }    return value;},
+                "formatter": function (value) {    if (value >= 1e12) { return +(value/1e12).toFixed(1) + 'T'; }    else if (value >= 1e9)  { return +(value/1e9).toFixed(1)  + 'B'; }    else if (value >= 1e6)  { return +(value/1e6).toFixed(1)  + 'M'; }    else if (value >= 1e3)  { return +(value/1e3).toFixed(1)  + 'K'; }    else { return +value.toFixed(0); }    return value;},
                 "valueAnimation": false
             },
             "inverse": false,
@@ -4171,7 +4180,7 @@
     "title": [
         {
             "show": true,
-            "text": "BTC vs TOTAL2 Market Cap",
+            "text": "Bitcoin vs Altcoins Market Cap",
             "target": "blank",
             "subtarget": "blank",
             "padding": 5,
@@ -4194,9 +4203,9 @@
         "filterMode": "filter"
     }
 };
-        chart_6fe25177b4b74269a53272e0f38ed878.setOption(option_6fe25177b4b74269a53272e0f38ed878);
+        chart_eea47b62f873485abfaecf0ef7159eb7.setOption(option_eea47b62f873485abfaecf0ef7159eb7);
             window.addEventListener('resize', function(){
-                chart_6fe25177b4b74269a53272e0f38ed878.resize();
+                chart_eea47b62f873485abfaecf0ef7159eb7.resize();
             })
     </script>
 </body>

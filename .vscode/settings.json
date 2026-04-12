@@ -6,7 +6,7 @@
     // Workbench
     "workbench.editor.labelFormat": "short",
     "workbench.statusBar.visible": true,
-    "workbench.colorTheme": "Obsidian Theme - Purple",
+    "workbench.colorTheme": "Obsidian Theme",
     "workbench.layoutControl.enabled": false,
     "workbench.startupEditor": "none",
     "workbench.tips.enabled": false,
